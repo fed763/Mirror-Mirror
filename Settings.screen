@@ -1,0 +1,87 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.0.119"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="e5d68872-7572-84c0-3248-245473b94b62">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="c6032480-37f0-ae22-5b7a-4228bc6b720a">
+            <Content.Layers>
+                <Layer Id="51d0f917-fd79-e210-ffe1-b5433125073f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="9907fb7c-70be-0b7d-6033-a066f20090c7" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="84c48905-77df-7d64-f589-0a67439b8ed1" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="476c8c58-1ca7-bf15-02af-b6aaa8b3ac41" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/28/2017 01:36:37" Id="fe416df1-7313-7040-a8b8-81a453b50dc8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="5bd258cd-67cb-c7d4-0cd8-802d40fbc861">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <Image SourcePath="assets/setting.jpeg" Id="77ae61b5-5eb0-e51a-fbed-155e3befd67f" Panel.Bounds="49,35,5*{5,2147483647},5*{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Home Screen.screen" Created="04/28/2017 01:38:05" Id="fe131fda-838c-a78c-b604-684d5b38478e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <Title RichText="Settings" FontFamily="Open Sans" Id="6e5d2b4c-fa42-9b36-83c2-2ef48292d20d" Panel.Bounds="238,79,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <Button Text="Add User" FontFamily="Open Sans" Id="d872122f-bde6-f1dd-7602-354d2ac25a8a" Panel.Bounds="77,195,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/New User.screen" Created="04/28/2017 17:42:00" Id="13d67490-eb57-8131-aa44-61b4ec6e07e3">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <Slider Id="50649bf1-5998-066a-f1af-95facefab89e" Panel.Bounds="75,265,100{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <TextArea Text="Transparency" Border="#FFFFFFFF" FontFamily="Open Sans" Id="2b215934-4d34-090e-1988-08c8f9804f5b" Panel.Bounds="76,292,98{5,2147483647},27{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <Button Text="Adjust News" FontFamily="Open Sans" Id="d1123522-6ff8-0d84-5172-0e7bcc30a140" Panel.Bounds="77,332,94{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <Button Text="Adjust Music" FontFamily="Open Sans" Id="2c394cc3-ac19-3e05-fa50-73986037ca43" Panel.Bounds="81,392,86{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="51d0f917-fd79-e210-ffe1-b5433125073f">
+                            <Add.Item>
+                                <Button Text="Enable Colorblind" FontFamily="Open Sans" Id="7104c105-8080-9431-7d8b-2912f355ee81" Panel.Bounds="63,452,123{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

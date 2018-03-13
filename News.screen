@@ -1,0 +1,64 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.0.119"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="8834577d-ae1a-6f6b-6c26-90d13a07ba29">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="ca6d40c7-de7b-f0b9-63ff-10d9fbde41c8">
+            <Content.Layers>
+                <Layer Id="edc39ba7-0b38-4651-5b9f-bedd62c8a11a" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="b3329ec5-d9b7-be02-3948-8cdf0a36470b" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="2ddb0fd7-6a38-917e-1994-8b0e5cd4ec06" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="216e787e-92a0-5c1b-a238-7918ea8a9dcf" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/28/2017 01:30:09" Id="d14a3515-c375-5d1a-6828-d5582a515b81">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3ee2ca14-91e8-08bd-083c-fb0369000e46">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="edc39ba7-0b38-4651-5b9f-bedd62c8a11a">
+                            <Add.Item>
+                                <Image SourcePath="assets/images.jpeg" Id="fdb764f0-a5b6-6666-39f1-f172c0998a9c" Panel.Bounds="30,25,163{5,2147483647},153{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Home Screen.screen" Created="04/28/2017 01:31:54" Id="918840af-690f-5b9b-221e-734ce8f42993">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="edc39ba7-0b38-4651-5b9f-bedd62c8a11a">
+                            <Add.Item>
+                                <Title RichText="Today's Top Headlines" FontFamily="Open Sans" Id="b36ea233-12f3-c023-59db-b4dfce521ec0" Panel.Bounds="242,78,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="edc39ba7-0b38-4651-5b9f-bedd62c8a11a">
+                            <Add.Item>
+                                <VideoPlayer Id="d70e0184-698c-f12f-73c7-31f863e40f1f" Panel.Bounds="43,188,200{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="edc39ba7-0b38-4651-5b9f-bedd62c8a11a">
+                            <Add.Item>
+                                <VideoPlayer Id="0f0e56a8-bd8d-3063-b9a3-84df899d4372" Panel.Bounds="43,359,200{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="edc39ba7-0b38-4651-5b9f-bedd62c8a11a">
+                            <Add.Item>
+                                <VideoPlayer Id="c6f9a712-930e-aab2-ce0f-9494ef138031" Panel.Bounds="43,530,200{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

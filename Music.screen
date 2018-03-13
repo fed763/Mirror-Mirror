@@ -1,0 +1,69 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.0.119"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="d65a16bc-2e36-b19e-2c6a-87fdcea86b05">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="524cc877-c046-0cef-4d67-f8347874e8f7">
+            <Content.Layers>
+                <Layer Id="a8b40de7-a341-5b42-5150-daae2ae1491f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="ff84867a-7671-c840-1689-dc56ff4041ba" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="14e558a4-e924-700b-81a7-88638259ee68" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="110c80da-0cc8-dbbb-62bd-e5f04442c84a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/28/2017 01:25:10" Id="fade9d58-f86b-6fc9-e542-7485410b22e8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d0b9fa4f-4e43-653f-0729-876b32280915">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a8b40de7-a341-5b42-5150-daae2ae1491f">
+                            <Add.Item>
+                                <Image SourcePath="assets/tunes.png" Id="35e0c963-70ee-c7c3-62c4-276676b612cf" Panel.Bounds="17,17,143{5,2147483647},132{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Home Screen.screen" Created="04/28/2017 01:25:38" Id="e86451ac-621a-0c29-c8f9-e0446d477acc">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a8b40de7-a341-5b42-5150-daae2ae1491f">
+                            <Add.Item>
+                                <Title RichText="Your Music" FontFamily="Open Sans" Id="e1db2025-7ded-15cd-9b30-ccee7c0157e2" Panel.Bounds="223,59,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a8b40de7-a341-5b42-5150-daae2ae1491f">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Artists" Id="d9cafbd2-f72e-2789-c19d-39e4536eefdd" Panel.Bounds="36,177,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Red Hot Chilli Peppers" Id="5b762960-c81c-a169-98f1-f77f855b818b" />
+                                        <Item Text="Billy Kenny" Id="28dd71a5-7e8f-8045-44c7-b073a9234251" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a8b40de7-a341-5b42-5150-daae2ae1491f">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Radio" Id="bcd7cebd-e8f1-a774-15ed-79fbb7d5abd4" Panel.Bounds="223,177,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Sports radio" Id="243237f8-693c-b91a-5cab-29f656c1b9bf" />
+                                        <Item Text="Bill Burr radio" Id="b05be605-bed6-9edf-ac91-98e25250e429" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

@@ -1,0 +1,99 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.0.119"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="f4cc447e-9ec6-98f7-cb44-2da196048a15">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="f49a41d7-71f9-6a80-1b5e-54404a8d3b16">
+            <Content.Layers>
+                <Layer Id="99009515-ea4b-80a9-d66d-edfa9306c969" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="72692c89-9b93-41e9-1e73-9da3c91e6c90" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="b5013fcf-f773-36b4-a222-e84182861d14" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="ebe32585-7cce-9853-d95b-bdd6603c12e2" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/28/2017 02:22:00" Id="2e3d26e4-b114-aa13-e474-c3b8e111e0bd">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0e2ce3b8-1f17-0aa6-41bc-265306f6904b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <Title RichText="Please stand in font of camera" FontFamily="Open Sans" Id="413dbee7-3b63-a33d-329a-0fa9c4d8bc6f" Panel.Bounds="257,58,510{5,2147483647},42{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <WebCamMock MockType="WebCam" Id="ce8dba20-a3a1-47e8-f9e6-32e37c1fd59a" Panel.Bounds="348,178,327{5,2147483647},306{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <Title RichText="Then say your name or enter it using virtual keyboard" FontFamily="Open Sans" Id="370e261f-ec52-2fb9-376e-b2b65bba6432" Panel.Bounds="87,562,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <Button Text="Keyboard" FontFamily="Open Sans" Id="b604c866-9225-ab02-98c9-8fea77b531ee" Panel.Bounds="471,641,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="38adecf2-cf25-c02d-2a92-849ad871db77" Created="04/28/2017 17:33:15" Id="b4ae29ca-7412-3012-9ac8-bd2908db4bba" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <Button Text="Back" FontFamily="Open Sans" Id="29c57417-1243-d86b-786a-0a29f670183a" Panel.Bounds="20,20,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Settings.screen" Created="05/04/2017 17:20:16" Id="734205a3-f76d-2d39-1e42-d638e1ca177a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Keyboard" StateGroup="2e3d26e4-b114-aa13-e474-c3b8e111e0bd" ParentScene="2e3d26e4-b114-aa13-e474-c3b8e111e0bd" Created="04/28/2017 17:33:15" Id="38adecf2-cf25-c02d-2a92-849ad871db77">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e6cf26ba-7b72-0b43-f18d-8a66ffe9b567">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <Image SourcePath="assets/key.png" Id="cc2792e6-a73d-a580-9b5a-1e30c0ab1d38" Panel.Bounds="172,257,680{5,2147483647},313{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <Title RichText="Type your name below" FontFamily="Open Sans" Id="930c8c6d-3d71-3c0f-3289-26fa97027aae" Panel.Bounds="331,69,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="99009515-ea4b-80a9-d66d-edfa9306c969">
+                            <Add.Item>
+                                <Button Text="Back" FontFamily="Open Sans" Id="f4306132-c1a3-56c2-dbfe-c131b6ad9a29" Panel.Bounds="25,25,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="2e3d26e4-b114-aa13-e474-c3b8e111e0bd" Created="04/28/2017 17:41:31" Id="0559b39b-2363-f445-d938-44ba40f3e8da" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="ce8dba20-a3a1-47e8-f9e6-32e37c1fd59a" />
+                        <Remove Target="413dbee7-3b63-a33d-329a-0fa9c4d8bc6f" />
+                        <Remove Target="370e261f-ec52-2fb9-376e-b2b65bba6432" />
+                        <Remove Target="b604c866-9225-ab02-98c9-8fea77b531ee" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

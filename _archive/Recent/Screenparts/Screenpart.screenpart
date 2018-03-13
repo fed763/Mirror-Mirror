@@ -1,0 +1,45 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="8.2.0.119"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="0aa554c6-028a-00c2-c5e3-4b97715d0977" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="80" Height="35" Background="#00FFFFFF" Id="f781c2e5-5845-0663-fa5b-b6f58e2e971a">
+            <BorderedContent.Layers>
+                <Layer Id="f0c700ed-f3a5-6369-ae48-e027fdd4b050" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="94ebc1ee-01cf-e00d-4985-a575847defdd" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="ff46481e-c773-908e-4dd1-c3dd15c720c1" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="fd55d9ce-6795-7b6c-72d3-2672c4ac7f71" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="04/27/2017 22:49:45" Id="2941a591-3ed0-0c65-d03c-5b7c98ddb8e2">
+            <Scene.KeyFrames>
+                <KeyFrame Id="835aa7cf-fa6f-6170-ae64-d1c1414a8613">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f0c700ed-f3a5-6369-ae48-e027fdd4b050">
+                            <Add.Item>
+                                <Button Text="Weather" Id="6cc53eda-1260-e45e-a7b6-8925d5d8e966" Panel.Bounds="0,0,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Weather.screen" Created="04/27/2017 22:50:34" Id="e0cb6981-d27e-8981-5a37-fe3e71029247">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

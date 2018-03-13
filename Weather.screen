@@ -1,0 +1,195 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.0.119"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="440728f9-4001-f9d9-1606-387a1ef5f199">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="2966a9a5-4d29-9db7-cfac-7924df01744f">
+            <Content.Layers>
+                <Layer Id="97165cf1-35b2-b5b4-4468-47df14f3163f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="ee8d9310-f9c4-6e45-1939-1bb0f5f48baa" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="1f4321a0-c25e-bcd4-89f6-ba8d96a2c5fd" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b072e616-d671-bc2b-c764-9d88b215ebe1" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/27/2017 22:50:34" Id="817d1330-4706-401c-838b-4f1294659bfe">
+            <Scene.KeyFrames>
+                <KeyFrame Id="300d1652-44dc-6791-ef1e-f94e0b0edecd">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/weather.jpg" Id="dd00e712-fd1d-cc07-908b-3b75f3710d93" Panel.Bounds="10,10,196{5,2147483647},176{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Home Screen.screen" Created="04/28/2017 23:53:34" Id="7247d43f-9d9a-9f17-1f6b-111e9b3ebc59">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" Direction="Right" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Title RichText="Todays Weather" FontFamily="Open Sans" Id="e1581aee-49e4-c4e0-0e92-fc39247bdeeb" Panel.Bounds="245,74,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Title RichText="81" FontFamily="Open Sans" Id="c374f559-1623-31ad-9c6a-a0b6c4f32008" Panel.Bounds="167,250,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Ellipse Id="58979b88-2a69-c971-344d-0e2be3e31544" Panel.Bounds="201,256,10{5,2147483647},10{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;20&quot; &gt;Mostly sunny with coulds moving in later in the day&lt;/Run&gt;" FontFamily="Open Sans" Id="c9d327d8-abb9-e33d-55cc-19eeab399f00" Panel.Bounds="233,250,477{5,2147483647},31{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Button Text="Week" FontFamily="Open Sans" Id="c3294166-031b-675a-1e29-dc72f8bf28f2" Panel.Bounds="925,19,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="68eb5e2e-b29b-f2b6-4067-aa90aa5912cd" AutoRevertEvent="Control.Click" Created="04/27/2017 23:27:21" Id="508804b7-4cfe-358f-aa17-f6df15d96827" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/sun.png" Id="8aba8a46-d110-3366-d40d-eb295f198b72" Panel.Bounds="167,299,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Week" StateGroup="817d1330-4706-401c-838b-4f1294659bfe" ParentScene="817d1330-4706-401c-838b-4f1294659bfe" Created="04/27/2017 23:27:21" Id="68eb5e2e-b29b-f2b6-4067-aa90aa5912cd">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3e2cf4e8-c173-0389-7120-7818e70f3b18">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Grid HorizontalGridLinesVisible="False" FontSize="13" HeaderFontSize="13" Id="5e05516b-cd52-df6a-301a-7deb13c15442" Panel.Bounds="50,200,0*{5,2147483647},0*{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="a7ed285c-b9c0-6189-3402-d0256b7f2711" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="f0f66d3d-7105-3080-4062-c2c7c2bcd3df" Type="Text" Width="75" Id="42941ed8-6446-d114-ed6a-13a966e27901">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="f0f66d3d-7105-3080-4062-c2c7c2bcd3df" Value="Monday" Opacity="1" Id="8235e871-44f1-6ce5-833e-bb3013bac720" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="9a113c48-f51d-13a4-7934-091953b35b17" Type="Text" Width="75" Id="6bbf8077-074e-5c51-f156-76dab57c72c1">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="9a113c48-f51d-13a4-7934-091953b35b17" Value="Tuesday" Opacity="1" Id="50e21ea7-4b0b-256e-8068-5ba6dc3d97e5" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="73f7a653-bae8-ed2c-2367-382ce639ae1f" Type="Text" Width="75" Id="8f96ff27-5b28-9621-e448-7404b8097aac">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="73f7a653-bae8-ed2c-2367-382ce639ae1f" Value="Wednesday" Opacity="1" Id="2a441982-22cf-02ee-1d03-566fde16cbb8" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="d3506638-7503-de46-6cb0-2ffd384f00fe" Type="Text" Width="75" Id="c99b69f6-4bb5-12cb-ccc2-f76f21ada0db">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="d3506638-7503-de46-6cb0-2ffd384f00fe" Value="Thurday" Opacity="1" Id="59947211-ce85-bf54-ceef-3f409eca2a93" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="7f3060e6-4f35-b234-3a49-57208a23e949" Type="Text" Width="75" Id="b1dda212-4975-59b9-4db7-7c8f0656fd02">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="7f3060e6-4f35-b234-3a49-57208a23e949" Value="Friday" Opacity="1" Id="d04531d9-963c-4c8a-978e-01cc9d378cbf" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="bba1ade7-f468-ff0c-86f0-507987312af9" Type="Text" Width="75" Id="fd8e400a-0cca-3cda-6afb-a688203f4d56">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="bba1ade7-f468-ff0c-86f0-507987312af9" Value="Saturday" Opacity="1" Id="afb44757-b5f1-5f6d-3297-b82584037730" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="9d5eec4e-cf92-ed6e-24a1-35570b9c433d" Type="Text" Width="75" Id="95733e8c-82b0-df39-b8c9-b74a2c543a39">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="9d5eec4e-cf92-ed6e-24a1-35570b9c433d" Value="Sunday" Opacity="1" Id="7ea843a8-ff88-3209-fbeb-81d37a7221cb" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="32" Id="42575cdb-f714-fc25-b2fc-8be0ef16dce7">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="f0f66d3d-7105-3080-4062-c2c7c2bcd3df" Value="61" Opacity="1" Id="084b8633-94e1-71d6-c8f3-c4a8d7f69f77" />
+                                                <GridCellData ColumnId="bba1ade7-f468-ff0c-86f0-507987312af9" Value="65" Opacity="1" Id="3a58121c-9829-6e80-cdfd-8823a74456ee" />
+                                                <GridCellData ColumnId="9d5eec4e-cf92-ed6e-24a1-35570b9c433d" Value="67" Opacity="1" Id="b56f3556-f48a-e280-8206-87ffb246ce97" />
+                                                <GridCellData ColumnId="9a113c48-f51d-13a4-7934-091953b35b17" Value="62" Opacity="1" Id="e9679607-397f-33ca-4bcd-dab47d35bd3d" />
+                                                <GridCellData ColumnId="73f7a653-bae8-ed2c-2367-382ce639ae1f" Value="59" Opacity="1" Id="28ca82fd-7cce-3ab3-5ecc-dfc4db44f4bb" />
+                                                <GridCellData ColumnId="d3506638-7503-de46-6cb0-2ffd384f00fe" Value="59" Opacity="1" Id="38fa0f71-b5a2-3bb3-422d-4f2617e8198b" />
+                                                <GridCellData ColumnId="7f3060e6-4f35-b234-3a49-57208a23e949" Value="60" Opacity="1" Id="c18c290e-2b8e-c693-8873-1c59e8252c09" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/weather.jpg" Id="ad40a72a-0608-0a2f-b8cb-ff9ba873a2a2" Panel.Bounds="50,266,74{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/rain.jpeg" Id="ee9af261-cc5a-6cc1-9a5f-7d6b4607a612" Panel.Bounds="123,266,77{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/rain.jpeg" Id="c8c2d033-2147-b3e0-d529-9bb0016cab23" Panel.Bounds="199,266,74{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/sun.png" Id="fbdd103f-0fa1-7c70-d81f-0cdace3a544d" Panel.Bounds="277,266,74{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/sun.png" Id="9cc02b86-43c9-380e-7163-3a8f63e08098" Panel.Bounds="347,266,77{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/sun.jpeg" Id="f10d27bb-79da-764d-4149-e3e33e9db4d8" Panel.Bounds="421,266,77{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="97165cf1-35b2-b5b4-4468-47df14f3163f">
+                            <Add.Item>
+                                <Image SourcePath="assets/sun.jpeg" Id="564a35dd-8eb5-e382-6480-4fc1be8f6544" Panel.Bounds="493,266,84{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="dd00e712-fd1d-cc07-908b-3b75f3710d93">
+                            <Add.Item>
+                                <CommandNavigate Screen="/Home Screen.screen" Created="04/28/2017 01:18:40" Id="d7523f73-a3b3-0206-726a-85d82466fa31">
+                                    <CommandNavigate.Transition>
+                                        <NavigateTransition Type="Slide" Duration="300" Direction="Right" />
+                                    </CommandNavigate.Transition>
+                                </CommandNavigate>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Label.RichText" Value="This Weeks Weather" Target="e1581aee-49e4-c4e0-0e92-fc39247bdeeb" />
+                        <Set Property="Button.Text" Value="Today" Target="c3294166-031b-675a-1e29-dc72f8bf28f2" />
+                        <Remove Target="c374f559-1623-31ad-9c6a-a0b6c4f32008" />
+                        <Remove Target="58979b88-2a69-c971-344d-0e2be3e31544" />
+                        <Remove Target="c9d327d8-abb9-e33d-55cc-19eeab399f00" />
+                        <Remove Target="8aba8a46-d110-3366-d40d-eb295f198b72" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

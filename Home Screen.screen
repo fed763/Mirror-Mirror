@@ -1,0 +1,106 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.0.119"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="adb94f16-6009-d0c7-241c-fb9580e87526">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="9a82a45e-57f3-3619-9636-46d6509f92f4">
+            <Content.Layers>
+                <Layer Id="94f6b26b-f593-c80f-01af-f1ce08df16fe" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="784841df-23b0-2dfc-5c18-68915233c106" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="69c4963f-c834-efb7-002f-af9b2fc8a32b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="265aa49e-841e-e56c-7a1b-438d0bdbea0a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/27/2017 18:28:59" Id="2a32f12b-a167-bcca-c9b3-0963b9e2fb73">
+            <Scene.KeyFrames>
+                <KeyFrame Id="82a10c2a-3178-12ff-74c2-a6bb6cfe9a4f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="94f6b26b-f593-c80f-01af-f1ce08df16fe">
+                            <Add.Item>
+                                <Image SourcePath="assets/weather.jpg" Id="25c750b3-8b07-4644-653a-5cf9661e992a" Panel.Bounds="36,21,120{5,2147483647},124{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Weather.screen" Created="04/28/2017 01:16:22" Id="798e5179-5785-3ea4-e07a-8ab6acf271fd">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94f6b26b-f593-c80f-01af-f1ce08df16fe">
+                            <Add.Item>
+                                <Image SourcePath="assets/car.jpeg" Id="8e31f551-f5f9-e239-633a-10acd6191d09" Panel.Bounds="811,21,177{5,2147483647},66{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Traffic.screen" Created="04/28/2017 02:21:17" Id="a98c1edb-e16a-2acb-e4c3-b2126db59976">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" Direction="Right" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94f6b26b-f593-c80f-01af-f1ce08df16fe">
+                            <Add.Item>
+                                <Title RichText="6:35 PM" FontFamily="Open Sans" Id="ed4f7f5f-219f-6249-2b5d-12a723e26224" Panel.Bounds="447,21,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94f6b26b-f593-c80f-01af-f1ce08df16fe">
+                            <Add.Item>
+                                <Image SourcePath="assets/tunes.png" Id="c5564b5f-1f69-161e-9d2b-34bb95f7d09e" Panel.Bounds="869,327,125{5,2147483647},114{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Music.screen" Created="04/28/2017 02:11:02" Id="8e9ed3c6-369d-418f-b395-6bf5be401e05">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" Direction="Right" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94f6b26b-f593-c80f-01af-f1ce08df16fe">
+                            <Add.Item>
+                                <Image SourcePath="assets/images.jpeg" Id="791eeea5-9f3b-1d94-911d-9412498395cb" Panel.Bounds="30,629,122{5,2147483647},117{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/News.screen" Created="04/28/2017 02:20:57" Id="6415c368-8c65-6165-913d-ab0256930b07">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94f6b26b-f593-c80f-01af-f1ce08df16fe">
+                            <Add.Item>
+                                <Image SourcePath="assets/setting.jpeg" Id="a6107b7c-56f5-d9cc-fc78-06c34d06a4fc" Panel.Bounds="894,647,100{5,2147483647},99{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Settings.screen" Created="04/28/2017 02:11:18" Id="88992cce-4299-6e3e-a6d9-986fd4def403">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94f6b26b-f593-c80f-01af-f1ce08df16fe">
+                            <Add.Item>
+                                <Title RichText="Good Afternoon Class!" FontFamily="Open Sans" Id="6c058ed4-6d60-56a7-4c54-109f9540dd66" Panel.Bounds="333,67,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

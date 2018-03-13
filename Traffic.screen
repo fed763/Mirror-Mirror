@@ -1,0 +1,54 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.0.119"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="db81b648-cd70-bcc2-1f32-08affd4b6a72">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="cb40f332-e14a-929d-d178-1dad8dd697ee">
+            <Content.Layers>
+                <Layer Id="855d4c6e-0d95-2044-5fdb-3d0ab194dff7" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="d8a24c33-9f13-2fc4-8872-c612c9c3841d" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="41eb9eeb-3902-b9b9-d885-f65947535f0a" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="406b684c-1d83-3281-66ca-dad92c058b80" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/27/2017 23:10:29" Id="92a24470-162d-783c-7ada-aebebebc8418">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ed173874-e7c0-4a64-3323-f60489ba8757">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="855d4c6e-0d95-2044-5fdb-3d0ab194dff7">
+                            <Add.Item>
+                                <Image SourcePath="assets/car.jpeg" Id="1949e462-5aae-01a5-1e9b-3b2d4533f154" Panel.Bounds="34,24,289{5,2147483647},116{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Home Screen.screen" Created="04/28/2017 01:21:41" Id="56712973-d37f-246f-13c0-5392c3083513">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855d4c6e-0d95-2044-5fdb-3d0ab194dff7">
+                            <Add.Item>
+                                <Title RichText="Traffic in your area" FontFamily="Open Sans" Id="b2817ed9-971b-bfc6-1a2c-e7877fdc08ca" Panel.Bounds="386,58,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855d4c6e-0d95-2044-5fdb-3d0ab194dff7">
+                            <Add.Item>
+                                <TextArea Text="There was a recent accident on your normal route to work. I reccomend taking side roads to by pass this." Border="#FFFFFFFF" FontFamily="Open Sans" Id="263fa092-0f5b-6196-9e69-2aa65c48404e" Panel.Bounds="386,149,335{5,2147483647},43{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
